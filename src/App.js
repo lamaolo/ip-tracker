@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { useState } from 'react';
 
 import Header from './components/Header';
 import Map from './components/Map';
@@ -6,7 +7,7 @@ import createMap from './lib/createMap';
 import searchIp from './lib/searchIp';
 
 import './App.css';
-import { useState } from 'react';
+import './static/styles/MediaQueries.css';
 
 function App() {
   const [ip, setIp] = useState();

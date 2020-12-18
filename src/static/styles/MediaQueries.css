@@ -1,0 +1,30 @@
+@media screen and (max-width: 850px) {
+  .MainInformation {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    height: 280px;
+    bottom: -140px;
+  }
+
+  .MainInformation-description {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .Header-title {
+    margin-top: 20px;
+  }
+
+  .Header-title h1 {
+    margin-bottom: 20px;
+  }
+
+  .SearchForm {
+    width: 80%
+  }
+
+  .separation {
+    display: none;
+  }
+}

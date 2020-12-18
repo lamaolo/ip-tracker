@@ -3,8 +3,6 @@ import React from 'react';
 import '../static/styles/components/MainInformation.css';
 
 const MainInformation = ({ data }) => {
-  console.log('data desde maininformation', data);
-
   return (
     <div className="MainInformation">
       <div className="MainInformation-item">
