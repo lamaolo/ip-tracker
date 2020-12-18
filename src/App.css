@@ -11,4 +11,22 @@ html {
 body {
   padding: 0;
   background: rgb(127, 127, 255);
+  position: relative;
+}
+
+.credits {
+  position: absolute;
+  bottom: 20px;
+  right:  20px;
+  color: white;
+  background: #453E9A;
+  z-index: 1000;
+  border-radius: 1000px;
+  padding: 10px 15px;
+  font-size: 1.3rem;
+}
+
+.credits a{
+  color: white;
+  text-decoration: underline;
 }
