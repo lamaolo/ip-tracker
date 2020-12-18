@@ -1,6 +1,7 @@
 import * as L from 'leaflet';
 
 function createMap(lat = 0, lng = 0, zoom = 3) {
+  // Poner token en variable de entorno
   const TOKEN =
     'pk.eyJ1IjoibGFtYW9sbyIsImEiOiJja2l0ZjRobHUwY2pyMzFwOTZhdzcwaG00In0.VX1HqNOALa-QcQPyPSedYA';
 
@@ -21,6 +22,11 @@ function createMap(lat = 0, lng = 0, zoom = 3) {
         'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
         'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
       id: 'mapbox/streets-v11',
+      /**
+       *  ID Va a cambiar el estilo del mapa, puede ser
+       *  "mapbox/streets-v11": Para mostrar las calles
+       *  "mapbox/satellite-streets-v11": Para mostrar vista satelite con las calles
+       * */
       tileSize: 512,
       zoomOffset: -1,
     }
