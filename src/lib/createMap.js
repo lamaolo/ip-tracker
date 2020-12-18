@@ -10,7 +10,8 @@ function createMap(lat = 0, lng = 0, zoom = 3) {
     container._leaflet_id = null;
   }
 
-  var mymap = L.map('mapid').setView([lat, lng], zoom);
+  // Creo mapa con las coordenadas y zoom pasados por parmateros (sacadas de la API de IP)
+  let mymap = L.map('mapid').setView([lat, lng], zoom);
 
   L.tileLayer(
     `https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=${TOKEN}`,
