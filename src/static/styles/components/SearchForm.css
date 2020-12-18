@@ -1,0 +1,26 @@
+.SearchForm {
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 500px;
+}
+
+.SearchForm-input, .SearchForm-button {
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+}
+
+.SearchForm-input {
+  width: 100%;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.SearchForm-button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
